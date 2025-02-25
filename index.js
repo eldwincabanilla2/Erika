@@ -11,7 +11,7 @@ form.addEventListener('submit', (e) => {
   const quality = qualitySelect.value.trim();
 
   if (!videoUrl || !quality) {
-    console.error('Please fill in both video URL and quality fields.');
+    window.alert('Please fill in both video URL and quality fields.');
     return;
   }
 
